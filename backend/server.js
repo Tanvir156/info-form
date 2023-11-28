@@ -60,7 +60,7 @@ app.delete("/delete/:id", async (req, res) => {
 
   try {
     // Find and remove the data by ID
-    const result = await DataModel.findByIdAndRemove(dataId);
+    const result = await DataModel.findByIdAndDelete(dataId);
 
     if (result) {
       res.json({ message: "Data deleted successfully" });
