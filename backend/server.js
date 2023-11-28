@@ -12,7 +12,7 @@ dotenv.config();
 connectDB();
 
 const corsOptions = {
-  origin: "http://localhost:3000", // Replace with your frontend's domain
+  origin: "https://info-frontend.onrender.com", // Replace with your frontend's domain"""http://localhost:3000",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };
